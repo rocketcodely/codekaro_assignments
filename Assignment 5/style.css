@@ -1,0 +1,87 @@
+.card{
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+#thumbnail{
+    width: 100%;
+    border-radius: 20px;
+}
+.card-img{
+    position: relative;
+}
+
+.offer-tag{
+    position: absolute;
+    bottom: 0;
+    background-color: royalblue;
+    color: white;
+    padding: 2px 8px;
+    margin-bottom: 20px;
+
+}
+
+.time-tag{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(246, 246, 246);
+    color: rgb(70, 70, 70);
+    padding: 2px 8px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+
+.card-heading{
+    margin: 0;
+    font-weight: 550;
+}
+
+.card-desc{
+    margin: 7px 0px 20px;
+    color: grey;
+    font-weight: 300;
+}
+
+.bottom-line{
+    height: 2px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+.bottom{
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.bottom-tag{
+    width: 15%;
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bottom-text{
+    width: 75%;
+    position: absolute;
+    right: 0;
+    color: grey;
+    font-weight: 400;
+    margin: auto 5%;
+    top: 0;
+    bottom: 0;
+    font-size: small;
+}
